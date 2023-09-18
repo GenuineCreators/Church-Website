@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+
+    min-height: 100vh;
+    width:100%;
+    background-image: url(sea2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 1%  ;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+nav img{
+    width: 150px;
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 20px ;
+}
+.nav-links ul li a{
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li a:hover{
+    color: rgb(246, 5, 5);
+}
+.textbox{
+    width: 90%;
+    text-align: center;
+    color: rgb(87, 96, 110);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.textbox h1{
+    font-size: 50px;
+}
+.textbox h4{
+    font-size: 30px;
+}
+.textbox p{
+    font-size: 25px;
+}
+
+.service{
+    background-color: black;
+    color: whitesmoke;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 5%;
+}
+h1{
+    font-size: 36px;
+    text-decoration: dashed white;
+}
+.service h2{
+    color: rgb(18, 177, 225);
+}
+h5{
+    color:blueviolet;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+h6{
+    color: rgb(212, 36, 36);
+    font-size: 20px;
+    font-weight: 300;
+}
+p{
+    color: rgb(249, 247, 247);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+.row{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 25%;
+    background: rgb(75, 78, 80);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0px;
+    transition: 0.5s;
+
+}
+.ministries{
+    background-color: rgb(45, 44, 44);
+    color: whitesmoke;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ministries-col{
+    flex: 35%;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+    padding: 1%  ;
+    justify-content: space-between;
+}
+.ministries-col img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    
+}
+
+.layer{
+    background: transparent;
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
+.layer:hover{
+    background: rgba(52, 53, 54, 0.7);
+
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: crimson;
+    font-size: 28px;
+    bottom: 0;
+    
+    transform: translateX(-50);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 50%;
+    opacity: 1;
+}
+.contact{
+    background-color: black;
+    color: rgb(235, 44, 44);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    white-space: 50px;
+   
+    
+}
+.contact h1{
+    color: rgb(235, 44, 44);
+    text-align: center;
+}
+.fa-instagram{
+    font-size: 40px;
+    color: rgb(255, 0, 191);
+}
+
+
+.fa-facebook{
+    font-size: 40px;
+    color: blue;
+}
+.fa-whatsapp{
+    font-size: 40px;
+    color: rgb(0, 255, 98);
+}
+.fa-youtube{
+    font-size: 40px;
+    color: rgb(255, 38, 0);
+
+
+}
+.fa-phone{
+    font-size: 40px;
+    color: rgb(39, 206, 39);
+
+}
+.map{
+    background-color: rgb(45, 44, 44);;
+    color: rgb(114, 195, 236);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.footer h3{
+    color: rgb(82, 206, 240);
+
+}
+.footer h5{
+    font-size: 18px;
+    color: blanchedalmond;
+}.header1{
+
+    min-height: 100vh;
+    width:100%;
+    background-image: url(aboutbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.aboutus{
+   
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.aboutus row{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutus .course-col{
+    flex-basis: 25%;
+    background: rgb(0, 7, 11);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+}
+
+.aboutus.course-col:hover{
+    box-shadow: 0 0 30px 2px;
+    transition: 0.5s;
+
+}
+.abouttext{
+    text-align: center;
+    color: red;
+    font-size: 22px;
+}
+.aboutus h2{
+    text-align: center;
+    color: rgb(31, 52, 52);
+    font-size: 25px;
+
+}
+
+.header2{
+
+    min-height: 100vh;
+    width:100%;
+    background-image: url(sea2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.church{
+    background-color: rgb(45, 44, 44);
+    color: whitesmoke;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.header3{
+
+    min-height: 100vh;
+    width:100%;
+    background-image: url(sermonbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.header3 div{
+    text-align: center;
+}
+.header3 .fa-youtube{
+    font-size: 80px;
+    color: rgb(255, 38, 0);
+}
+.header4{
+
+    min-height: 100vh;
+    width:100%;
+    background-image: url(contactus.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.header4 div{
+    text-align: center;
+}
+.header5{
+
+    min-height: 100vh;
+    width:100%;
+    background-image: url(offering.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.header5 div{
+    text-align: center;
+}
+.header5 h1{
+    color: green;
+}
+.header5 h2{
+    color: rgb(248, 9, 9);
+}
+.header5 h3{
+    color: rgb(150, 217, 237);
+}
+.header5 p{
+    color: rgb(11, 11, 11);
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
